@@ -12,8 +12,12 @@ public class studentServiceImpl implements studentService{
 	studentRepository studentRepository;
 	@Override
 	public void postStudentData(Student s) {
-		studentRepository.save(s);
-		
+		studentRepository.save(s);	
+	}
+	@Override
+	public Iterable<Student> dsipalyalldata() {
+	
+		return studentRepository.findAll() ;
 	}
 
 }

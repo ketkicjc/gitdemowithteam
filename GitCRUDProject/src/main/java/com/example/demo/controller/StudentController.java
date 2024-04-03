@@ -19,4 +19,14 @@ public class StudentController {
 		return "Data Submitted";
 	}
 
+	
+	
+	@RequestMapping("/getalldata")
+	public Iterable<Student> getalldata(){
+		Iterable<Student>list=studentService.dsipalyalldata();
+		return list;
+		
+	}
+	
+	
 }

@@ -6,4 +6,6 @@ public interface studentService {
 
 	public void postStudentData(Student s);
 
+	public Iterable<Student> dsipalyalldata();
+
 }
