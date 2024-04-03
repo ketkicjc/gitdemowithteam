@@ -8,4 +8,6 @@ public interface studentService {
 
 	public Iterable<Student> dsipalyalldata();
 
+	public Iterable<Student> displaydata();
+
 }

@@ -19,5 +19,10 @@ public class studentServiceImpl implements studentService{
 	
 		return studentRepository.findAll() ;
 	}
+	@Override
+	public Iterable<Student> displaydata() {
+		// TODO Auto-generated method stub
+		return studentRepository.findAll();
+	}
 
 }

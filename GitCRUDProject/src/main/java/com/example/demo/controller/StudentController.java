@@ -28,5 +28,12 @@ public class StudentController {
 		
 	}
 	
+	@RequestMapping("/getdata")
+	public Iterable<Student> getdata(){
+		Iterable<Student>list=studentService.displaydata();
+		return list;
+		
+	}
+	
 	
 }
