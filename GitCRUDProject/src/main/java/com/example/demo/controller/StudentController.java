@@ -19,7 +19,7 @@ public class StudentController {
 		return "Data Submitted";
 	}
  
-	
+	//Test push
 	
 	@RequestMapping("/getalldata")
 	public Iterable<Student> getalldata(){
