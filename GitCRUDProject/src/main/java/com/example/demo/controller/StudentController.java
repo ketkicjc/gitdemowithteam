@@ -18,7 +18,7 @@ public class StudentController {
 		studentService.postStudentData(s);
 		return "Data Submitted";
 	}
-
+ 
 	
 	
 	@RequestMapping("/getalldata")
